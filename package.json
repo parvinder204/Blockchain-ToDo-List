@@ -1,0 +1,12 @@
+{
+  "name": "blockchain-todo-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "migrate:reset": "truffle migrate --reset --network development"
+  },
+  "dependencies": {
+    "truffle": "^5.11.5"
+  }
+}
